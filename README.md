@@ -1,4 +1,4 @@
-# Métodos Numéricos TP2
+# OCR Digit Recognizer
 
 ## Documentation
 * All documentation can be found in **Documentation - Informe.pdf**. This includes development and experimentation
