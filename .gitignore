@@ -1,0 +1,10 @@
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+.ipynb_checkpoints/
+tp2
+Makefile
+*.pyc
+run_tests
+run_integration_tests
+*.swp

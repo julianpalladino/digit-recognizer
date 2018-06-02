@@ -1,0 +1,14 @@
+Formato de los archivos .in de test:
+    Primer línea: <path al directorio de data> <k-KNN> <alpha-PCA> <k-KFold>
+        Se asume que la base de datos se llama `train.csv`
+    Luego debe haber `k-KFold` líneas de 42.000 valores cada una, uno por cada
+        muestra de la base de entrenamiento, donde un 1 indicará que esa
+        muestra se considera parte del entrenamiento, y un 0 que se considera
+        parte del test. Luego, de esta forma se pueden codificar las 
+        particiones realizadas por el `k-KFold` cross validation.
+
+Formato de los archivos .out de test:
+    Deberá estar compuestos de `alpha-PCA` * `k-KFold` líneas correspondientes
+        a los autovalores obtenidos al realizar PCA. Para cada fold deberán 
+        aparecer los `alpha-PCA` autovalores obtenidos, ordenados según
+        magintud decreciente
